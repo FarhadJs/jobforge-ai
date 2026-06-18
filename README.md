@@ -1,84 +1,62 @@
-<div align="center">
-  <h1>JobForge AI</h1>
-  <p>
-    <strong>AI-Powered Job Application Tracker & Smart Resume Optimizer</strong><br />
-    Track applications, analyze resumes with AI, get improvement suggestions, and export polished PDFs — all in one modern full-stack app.
-  </p>
+# JobForge AI
 
-  <p>
-    <a href="https://github.com/FarhadJs/jobforge-ai/stargazers"><img src="https://img.shields.io/github/stars/FarhadJs/jobforge-ai?style=social" alt="Stars"></a>
-    <a href="https://github.com/FarhadJs/jobforge-ai"><img src="https://img.shields.io/github/license/FarhadJs/jobforge-ai" alt="License: MIT"></a>
-    <img src="https://img.shields.io/badge/Full%20Stack-React%20%2B%20NestJS-blue" alt="Full Stack">
-    <img src="https://img.shields.io/badge/AI-OpenAI-orange" alt="AI Powered">
-  </p>
-</div>
+**AI-Powered Job Application Tracker & Smart Resume Optimizer**
 
-## ✨ Features (Developing)
+A smart, all-in-one tool to manage job applications, analyze resumes with AI, and optimize them for ATS systems.
 
-- Kanban-style board to track application status (Applied → Interview → Offer → Rejected) with drag & drop
-- Add jobs manually or paste LinkedIn/Indeed URL (future: auto-scrape)
-- Upload resume (PDF) → AI-powered scoring & match percentage against job description
-- Smart suggestions: rewrite bullet points, fix keywords for ATS
-- Dashboard with stats: applications count, success rate, charts (Recharts)
-- PDF export of optimized resume
-- User auth (email + Google OAuth planned)
-- Dark mode & fully responsive
+![Demo](https://via.placeholder.com/800x400?text=JobForge+AI+Screenshot)  
+*(Replace with real screenshots later)*
+
+## ✨ Features
+
+- Intelligent Kanban Board with Drag & Drop to track application stages (Applied → Interview → Offer → Rejected)
+- Add jobs manually or via LinkedIn/Indeed links
+- **Resume Upload (PDF)** → AI analysis + match score with Job Description + improvement suggestions
+- Smart bullet points rewriting and ATS keyword optimization
+- Analytics Dashboard with charts (applications count, success rate, etc.)
+- Export optimized resume as PDF
+- Dark Mode + Fully Responsive
+- Authentication system (in progress)
 
 ## 🛠 Tech Stack
 
-| Layer       | Technology                          | Why?                              |
-|-------------|-------------------------------------|-----------------------------------|
-| Frontend    | React 18/19 + Vite + TypeScript     | Fast dev, modern hooks & types    |
-| UI          | Tailwind CSS + shadcn/ui            | Beautiful, customizable components|
-| State       | TanStack Query + Zustand            | Efficient data fetching & store   |
-| Backend     | NestJS + TypeScript                 | Structured, scalable Node backend |
-| Database    | PostgreSQL (Prisma ORM)             | Type-safe queries, easy migrations|
-| AI          | Python + FastAPI + OpenAI API       | Separate microservice for AI tasks|
-| Deployment  | Vercel (FE) + Railway/Render (BE)   | Free tiers for portfolio          |
+| Layer         | Technology                          | Reason |
+|---------------|-------------------------------------|--------|
+| **Frontend**  | React 18/19 + Vite + TypeScript     | Modern, fast & type-safe |
+| **UI**        | Tailwind CSS + shadcn/ui            | Beautiful & accessible components |
+| **State**     | TanStack Query + Zustand            | Efficient data fetching |
+| **Backend**   | NestJS + TypeScript                 | Scalable & structured |
+| **Database**  | PostgreSQL + Prisma                 | Type-safe ORM |
+| **AI**        | Python + FastAPI + OpenAI           | Powerful LLM integration |
+| **Deployment**| Vercel (Frontend) / Railway (Backend) | Easy & reliable |
 
-## 🚀 Getting Started (Local Setup – Coming Soon)
+## 🚀 Live Demo
+*(Coming soon — currently deploying)*
 
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/FarhadJs/jobforge-ai.git
-   cd jobforge-ai
-   ```
+## 📸 Screenshots
 
-2. Install dependencies (frontend & backend folders)  
-   ```bash
-   # Frontend
-   cd frontend && npm install
-   # Backend
-   cd ../backend && npm install
-   ```
+*(Add 3-4 screenshots or GIFs of the UI here)*
 
-3. Run dev servers  
-   ```bash
-   # Frontend
-   npm run dev
-   # Backend (in separate terminal)
-   npm run start:dev
-   ```
+## ⚡ Why This Project?
 
-(Full setup guide with env vars coming after initial commit)
+This is my **main portfolio project** that demonstrates my full-stack capabilities, with a strong focus on:
+- Modern Frontend development (React + TypeScript + Tailwind)
+- Real-world AI integration
+- Clean full-stack architecture (monorepo)
+- Solving actual problems for job seekers
 
-## 📸 Screenshots (placeholders – will update as built)
+## 🚀 Getting Started
 
-![Dashboard Preview](https://via.placeholder.com/1280x720?text=JobForge+AI+Dashboard)
-![Kanban Board](https://via.placeholder.com/1280x720?text=Kanban+Board)
-![Resume Analyzer](https://via.placeholder.com/1280x720?text=AI+Resume+Scoring)
+```bash
+git clone https://github.com/FarhadJs/jobforge-ai.git
+cd jobforge-ai
 
-## ⚡ Challenges & Learnings (Why this project?)
+# Frontend
+cd frontend && npm install && npm run dev
 
-- Integrating AI (LLM prompts) with full-stack app while keeping costs low  
-- Building drag & drop UI that's intuitive on mobile/desktop  
-- Handling file uploads + PDF parsing for resume analysis  
-- Structuring monorepo (frontend/backend/AI service) for clean dev experience  
+# Backend (in separate terminal)
+cd ../backend && npm install && npm run start:dev
+Full environment setup and .env details will be added soon.
 
-This project is my personal portfolio showcase — built from scratch to demonstrate full-stack + AI skills for remote roles (US/Canada focus).
-
-## 📄 License
-
-MIT License — feel free to fork, learn from, or inspire your own projects!
-
-Made with ❤️ by [Farhad Fallahi](https://github.com/FarhadJs)
+Made with ❤️ by Farhad Fallahi
+Open to collaboration and job opportunities!
